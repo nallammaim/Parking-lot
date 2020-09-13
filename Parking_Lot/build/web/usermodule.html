@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="register.css" rel="stylesheet"/>
+    <style type="text/css">
+         center {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+                font-family: Pacifico, Calibri;
+                
+            }
+            body {
+                background-color: blanchedalmond;
+                 
+                 background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image5.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image5.jpeg");
+    color: white;
+                 background-repeat: no-repeat;
+                 text-color:white;
+                 background-position: center;
+                 background-size: cover; 
+                 background-size: 100%;
+                 background-attachment: fixed;
+            }
+    </style>
+    </head>
+    <body>
+    <center><form method="post" action="Allocated_lot.jsp">
+            <h1>BOOK YOUR PARKING LOT</h1>
+                      <div class="form-field"> 
+                          <b>Username:</b><input type="text" class="username" placeholder="Name" id="name" name="name" required/>
+                      </div><br/>
+                      <div class="form-field"> 
+                          <b>Vehicle Type:</b><select name="vehicle"><option value="car" required>Car</option>
+                              <option value="motor-bike">Motor cycle</option>
+                                <option value="auto-rikshaw">Auto Rickshaw</option></select>
+                      </div><br/>
+                      <div class="form-field"> 
+                          <b>Email:</b><input type="email" class="parkdate" placeholder="email" id="dob" name="dob" required/>
+                      </div><br/>
+                      
+                      <div class="form-field"> 
+                          <b>Select Area:</b><select name="area" required>
+                              <option value="Murugan Car Parking">Murugan Car Parking</option>
+                              <option value="Rajmahal Car Parking">Rajmahal Car Parking</option>
+                              <option value="Madurai Corporation Vagana Kappagam">Madurai Corporation Vagana Kappagam</option>
+                              <option value="Victory Car Parking">Victory Car Parking</option>
+                              <option value="Park Plaza Car Parking">Park Plaza Car Parking</option>
+                              
+                              <option value="Mathy Car Parking">Mathy Car Parking</option>
+                              <option value="Anna Nagar Car Parking">Anna Nagar Car Parking</option>
+                              <option value="ASR Parking lot">ASR Parking lot</option>
+                              <option value="Andalpuram Parking lot">Andalpuram Parking lot</option>
+                              <option value="Sree Anchenaya Parking">Sree Anchenaya Parking</option>
+                              
+                              <option value="Madurai junction Cycle and bike stand">Madurai junction Cycle and bike stand</option>
+                              <option value="Airport Parking">Airport Parking</option>
+                              <option value="Madurai Junction">Madurai Junction</option>
+                              <option value="Mattuthavani">Mattuthavani</option>
+                              <option value="Periyar">Periyar</option>
+                              
+                              <option value="Pothys Parking Lot Madurai">Pothys Parking Lot Madurai</option>
+                              
+                          </select>
+                              
+                      </div><br/>
+                      <div class="form-field"> 
+                          <b>Date of parking:</b><input type="date" class="parkdate" placeholder="date of booking" id="dob" name="dob" required/>
+                      </div><br/>
+                      <div class="form-field">
+                          <button class=app-button type="submit">SUBMIT</button>
+                           
+                          <a href="userlogin.html">Click here to login</a>
+                      </div><br/>
+                      
+
+                    </form>
+    </center>
+    </body>
+</html>
